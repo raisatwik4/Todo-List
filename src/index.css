@@ -1,0 +1,200 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ 
+} 
+
+
+/* not mine */
+/* .container {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item.completed {
+  background-color: #e6e6e6;
+  text-decoration: line-through;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #4caf50;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  background-color: #f0f0f0;
+}
+
+.checkbox i {
+  color: #4caf50;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.delete i {
+  color: #ccc;
+  font-size: 1.2rem;
+} */
+
+
+
+/* not mine */
+
+
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.card {
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button.btn {
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-remove {
+  color: #ff3333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.fa-remove:hover {
+  color: #cc0000;
+}
+
+.item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
